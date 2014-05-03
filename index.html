@@ -4,7 +4,6 @@
 		<title>Nico Saueressig - Junior Web Developer</title>
 		
 		<style>
-
 		body {
 			text-align: center;
 			background-image:url('img/FFFFFFFFFFFFDDDDDD_217.png');
@@ -20,21 +19,65 @@
 		#social_links img {
 			border: 50px;
 		}
-
+		
+		@-webkit-keyframes hover {
+		50% {
+		-webkit-transform: translateY(-3px);
+		transform: translateY(-3px);
+		}
+		100% {
+		-webkit-transform: translateY(-6px);
+		transform: translateY(-6px);
+		}
+		}
+		@keyframes hover {
+		50% {
+		-webkit-transform: translateY(-3px);
+		transform: translateY(-3px);
+		}
+		100% {
+		-webkit-transform: translateY(-6px);
+		transform: translateY(-6px);
+		}
+		}
+		.hover {
+		display: inline-block;
+		-webkit-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+		-webkit-transition-property: transform;
+		transition-property: transform;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+		}
+		.hover:hover, .hover:focus, .hover:active {
+		-webkit-transform: translateY(-6px);
+		transform: translateY(-6px);
+		-webkit-animation-name: hover;
+		animation-name: hover;
+		-webkit-animation-duration: 1.5s;
+		animation-duration: 1.5s;
+		-webkit-animation-delay: 0.3s;
+		animation-delay: 0.3s;
+		-webkit-animation-timing-function: linear;
+		animation-timing-function: linear;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		animation-direction: alternate;
+		}
 		</style>
-
 	</head>
-
 	<body>
-	<div id="social_links">
-		<a href="mailto:nico@nicosaueressig.de"><img src="img/gmail-128-black.png"></a>
-		<a href="http://www.github.com/nicosa" target="_blank"><img src="img/github-128-black.png"></a>
-		<a href="http://nicolearnscoding.blogspot.com" target="_blank"><img src="img/blogger-128-black.png"></a>
-		<a href="http://www.twitter.com/nicolrnscodin" target="_blank"><img src="img/twitter-128-black.png"></a>
-		<a href="http://uk.linkedin.com/in/nicosaueressig" target="_blank"><img src="img/linkedin-128-black.png"></a>
-	</div>
-	<a class="twitter-timeline" email data-widget-id="461966547011903488">Tweets von @Nicolrnscodin</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	
+		<div id="social_links">
+			<div class="hover"><a href="mailto:nico@nicosaueressig.de"><img src="img/gmail-128-black.png"></a></div>
+			<a href="http://www.github.com/nicosa" target="_blank"><img src="img/github-128-black.png"></a>
+			<a href="http://nicolearnscoding.blogspot.com" target="_blank"><img src="img/blogger-128-black.png"></a>
+			<a href="http://www.twitter.com/nicolrnscodin" target="_blank"><img src="img/twitter-128-black.png"></a>
+			<a href="http://uk.linkedin.com/in/nicosaueressig" target="_blank"><img src="img/linkedin-128-black.png"></a>
+		</div>
+		<a class="twitter-timeline" email data-widget-id="461966547011903488">Tweets von @Nicolrnscodin</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
 	</body>
 </html>
