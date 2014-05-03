@@ -1,3 +1,3 @@
 My landing page
 ===
-Using Github pages to create a landing page for me as a junior dev
+Using Github pages to create a landing page for myself as a junior developer.
