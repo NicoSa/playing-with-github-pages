@@ -1,6 +1,6 @@
 My landing page
 ===
-Using Github pages to create a landing page for myself as a junior web developer.
+Trying out Github pages to play around with some css and html.
 
 Hover effects taken from https://github.com/IanLunn/Hover !
 
