@@ -6,9 +6,9 @@ Trying out Github pages to play around with some CSS and HTML.
 
 Check out [My Github pages]!
 
-Hover effects taken from [Ian Lunn on Github]
+Hover effects taken from [Ian Lunn on Github]!
 
-Social Media icons taken from [Simple Icons]
+Social Media icons taken from [Simple Icons]!
 
 
 
