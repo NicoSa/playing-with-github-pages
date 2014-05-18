@@ -1,7 +1,16 @@
 My landing page
 ===
-Trying out Github pages to play around with some css and html.
+![](img/landingpage.png)
 
-Hover effects taken from https://github.com/IanLunn/Hover !
+Trying out Github pages to play around with some CSS and HTML.
 
-Social Media icons taken from  http://simpleicons.org !
+Check out [My Github pages]!
+
+Hover effects taken from [Ian Lunn on Github]
+
+[Ian Lunn on Github]:https://github.com/IanLunn/Hover !
+
+Social Media icons taken from [Simple Icons].
+
+[Simple Icons]:http://simpleicons.org !
+[My Github pages]:http://nicosa.github.io
