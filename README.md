@@ -1,6 +1,5 @@
 My landing page
 ===
-![](img/landingpage.png)
 
 Trying out Github pages to play around with some CSS and HTML.
 
